@@ -38,96 +38,104 @@ Includes:
 -Customer Shopping Behavior Anal…
 
 🔹 Tools & Technologies
-Tool	Purpose
-Python (Pandas, NumPy)	Data cleaning & EDA
-PostgreSQL	SQL analysis
-SQLAlchemy	Python–DB connection
-Power BI	Dashboard & visualization
-Jupyter Notebook	Development
+
+-Python (Pandas, NumPy):	Data cleaning & EDA
+-PostgreSQL:	SQL analysis
+-SQLAlchemy:	Python–DB connection
+-Power BI:	Dashboard & visualization
+-Jupyter Notebook:	Development
 
 🔹 Project Workflow / Steps
 1️⃣ Data Loading (Python)
 
-Imported dataset using Pandas
+-Imported dataset using Pandas
 
-Checked structure using .info() and .describe()
+-Checked structure using .info() and .describe()
 
 2️⃣ Data Cleaning
 
-Handled missing values (median imputation by category)
+-Handled missing values (median imputation by category)
 
-Renamed columns to snake_case
+-Renamed columns to snake_case
 
-Removed redundant fields (promo_code_used)
+-Removed redundant fields (promo_code_used)
 
 3️⃣ Feature Engineering
 
 Created:
 
-age_group (customer segmentation)
+-age_group (customer segmentation)
 
-purchase_frequency_days
+-purchase_frequency_days
 
-Standardized categorical values
+-Standardized categorical values
 
 4️⃣ Database Integration
 
-Connected Python to PostgreSQL using SQLAlchemy
+-Connected Python to PostgreSQL using SQLAlchemy
 
-Loaded cleaned DataFrame using to_sql()
+-Loaded cleaned DataFrame using to_sql()
 
 5️⃣ SQL Analysis
 
-Solved real business questions using SQL:
+-Solved real business questions using SQL:
 
-Revenue by gender
+-Revenue by gender
 
-High-spending discount users
+-High-spending discount users
 
-Top rated products
+-Top rated products
 
-Shipping comparison
+-Shipping comparison
 
-Subscriber vs non-subscriber spend
+-Subscriber vs non-subscriber spend
 
-Discount dependent products
+-Discount dependent products
 
-Customer segmentation (New/Returning/Loyal)
+-Customer segmentation (New/Returning/Loyal)
 
-Top 3 products per category
+-Top 3 products per category
 
-Repeat buyers vs subscriptions
+-Repeat buyers vs subscriptions
 
-Revenue by age group
+-Revenue by age group
 
 6️⃣ Visualization
 
-Built interactive Power BI dashboard
+-Built interactive Power BI dashboard
 
-Added KPIs, filters, and category drill-downs
+-Added KPIs, filters, and category drill-downs
 
 🔹 Dashboard Features (Power BI)
 
-Revenue trends
+-Revenue trends
 
-Customer segments
+-Customer segments
 
-Top products
+-Top products
 
-Discount impact analysis
+-Discount impact analysis
 
-Subscription comparison
+-Subscription comparison
 
-Category-wise sales
+-Category-wise sales
 
-Age group contribution
+-Age group contribution
 
-Interactive slicers allow dynamic business exploration.
+-Interactive slicers allow dynamic business exploration.
 
 🔹 Key Results & Insights
 
 ✅ Loyal customers generate highest revenue
+
 ✅ Some products depend heavily on discounts
+
 ✅ Subscribers spend more on average
+
 ✅ Top-rated products align with higher sales
+
 ✅ Specific age groups contribute majority revenue
+
+🔹 How to Run
+Step 1 – Install dependencies
+pip install pandas numpy sqlalchemy psycopg2
