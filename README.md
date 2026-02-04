@@ -124,6 +124,8 @@ Created:
 
 -Interactive slicers allow dynamic business exploration.
 
+![Dashboard Screenshot]([dashboard ss.png](https://github.com/GunjanSaini07/customer_behaviour_analysis/blob/main/dashboard%20ss.png))
+
 🔹 Key Results & Insights
 
 ✅ Loyal customers generate highest revenue
