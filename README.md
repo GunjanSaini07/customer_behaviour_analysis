@@ -136,6 +136,28 @@ Created:
 
 ✅ Specific age groups contribute majority revenue
 
-🔹 How to Run
-Step 1 – Install dependencies
-pip install pandas numpy sqlalchemy psycopg2
+  🔹 Skills Demonstrated
+
+-Data Cleaning
+
+-Exploratory Data Analysis
+
+-SQL Query Writing
+
+-PostgreSQL Integration
+
+-Feature Engineering
+
+-Business Insight Generation
+
+-Dashboard Design
+
+-Data Storytelling
+
+🔹 Author
+
+Gunjan Saini
+
+Aspiring Data Analyst | SQL • Python • Power BI
+
+
