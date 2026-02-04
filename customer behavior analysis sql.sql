@@ -82,6 +82,27 @@ FROM customer
 WHERE previous_purchases > 5
 GROUP BY subscription_status;
 
+or
+	
+SELECT 
+    CASE 
+        WHEN previous_purchases > 5 THEN 'Repeat'
+        ELSE 'Non-Repeat'
+    END AS customer_type,
+
+    COUNT(*) AS total_customers,
+
+    SUM(CASE WHEN subscription_status = 'Yes' THEN 1 ELSE 0 END) AS subscribers,
+
+    ROUND(
+        100.0 * SUM(CASE WHEN subscription_status = 'Yes' THEN 1 ELSE 0 END)
+        / COUNT(*),
+        2
+    ) AS subscription_rate_percent
+
+FROM customer
+GROUP BY customer_type;
+
 --Q10. What is the revenue contribution of each age group? 
 SELECT 
     age_group,
@@ -89,6 +110,7 @@ SELECT
 FROM customer
 GROUP BY age_group
 ORDER BY total_revenue desc;
+
 
 
 
