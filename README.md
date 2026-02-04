@@ -1,21 +1,25 @@
 # customer_behaviour_analysis
 Data analytics project showcasing customer behaviour analysis using python, SQL and power BI
 
-🔹 #Overview
+🔹 Overview
 
 This project analyzes customer shopping behavior using transactional retail data to uncover insights about spending patterns, product performance, customer segments, and subscription trends.
 
 The objective is to help businesses make data-driven decisions related to:
 
 -Customer retention
+
 -Discount strategy
+
 -Product positioning
+
 -Revenue growth
+
 -Marketing optimization
 
 The complete workflow includes Python (EDA & cleaning) → PostgreSQL (SQL analysis) → Power BI (dashboard visualization).
 
-🔹 #Dataset
+🔹 Dataset
 
 Rows: 3,900 transactions
 
@@ -24,18 +28,23 @@ Columns: 18 features
 Includes:
 
 -Customer demographics (Age, Gender, Location, Subscription Status)
+
 -Purchase details (Item, Category, Amount, Season, Size, Color)
+
 -Behavior data (Discount, Frequency, Review Rating, Shipping Type)
+
 -Missing values: 37 in Review Rating column 
+
 -Customer Shopping Behavior Anal…
 
-🔹 #Tools & Technologies
+🔹 Tools & Technologies
 Tool	Purpose
 Python (Pandas, NumPy)	Data cleaning & EDA
 PostgreSQL	SQL analysis
 SQLAlchemy	Python–DB connection
 Power BI	Dashboard & visualization
 Jupyter Notebook	Development
+
 🔹 Project Workflow / Steps
 1️⃣ Data Loading (Python)
 
