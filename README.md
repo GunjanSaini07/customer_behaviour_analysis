@@ -1,6 +1,7 @@
-📊 Customer Behaviour Analysis
+# 📊 Customer Behaviour Analysis
 Data Analytics Project | Python • SQL • Power BI
-🔹 Overview
+
+## Overview
 
 This project analyzes retail customer transaction data to uncover insights into shopping behavior, spending patterns, product performance, and customer segments.
 
@@ -20,7 +21,7 @@ The complete workflow follows:
 
 Python (Cleaning & EDA) → PostgreSQL (SQL Analysis) → Power BI (Visualization)
 
-🔹 Dataset
+## Dataset
 
 📌 Rows: 3,900 transactions
 
@@ -44,14 +45,16 @@ Data issues handled
 
 37 missing values in Review Rating
 
-🔹 Tools & Technologies
-Tool	Purpose
-Python (Pandas, NumPy)	Data cleaning & EDA
-PostgreSQL	SQL analysis
-SQLAlchemy	Python–Database connection
-Power BI	Dashboard & visualization
-Jupyter Notebook	Development
-🔹 Project Workflow
+## Tools & Technologies
+
+Python (Pandas, NumPy):	Data cleaning & EDA
+PostgreSQL:	SQL analysis
+SQLAlchemy:	Python–Database connection
+Power BI:	Dashboard & visualization
+Jupyter Notebook:	Development
+
+## Project Workflow
+
 1️⃣ Data Loading
 
 Imported dataset using Pandas
@@ -116,7 +119,7 @@ Built an interactive Power BI dashboard
 
 Added KPIs, filters, slicers, and drill-down analysis
 
-🔹 Dashboard Features (Power BI)
+## Dashboard Features (Power BI)
 
 Revenue trends
 
@@ -134,7 +137,7 @@ Age group contribution
 
 Interactive slicers for dynamic exploration
 
-🔹 Key Results & Insights
+## Key Results & Insights
 
 ✅ Loyal customers generate the highest revenue
 ✅ Subscribers spend more on average
@@ -142,7 +145,7 @@ Interactive slicers for dynamic exploration
 ✅ Higher-rated products correlate with higher sales
 ✅ Specific age groups contribute the majority of revenue
 
-🔹 Skills Demonstrated
+## Skills Demonstrated
 
 Data Cleaning & Preprocessing
 
@@ -160,7 +163,8 @@ Business Insight Generation
 
 Data Storytelling
 
-🔹 Project Structure
+## Project Structure
+
 customer_behaviour_analysis/
 │
 ├── data/
@@ -169,7 +173,7 @@ customer_behaviour_analysis/
 ├── dashboard/
 ├── screenshots/
 └── README.md
-🔹 How to Run
+## How to Run
 1. Clone repository
 git clone <repo-link>
 2. Install dependencies
@@ -182,7 +186,7 @@ Open Jupyter Notebook and execute the analysis.
 
 Load the .pbix file to view the dashboard.
 
-🔹 Author
+## Author
 
 Gunjan Saini
 Aspiring Data Analyst
