@@ -7,17 +7,17 @@ This project analyzes retail customer transaction data to uncover insights into 
 
 The goal is to help businesses make data-driven decisions that improve:
 
-Customer retention
+- Customer retention
 
-Discount strategies
+- Discount strategies
 
-Product positioning
+- Product positioning
 
-Revenue growth
+- Revenue growth
 
-Marketing optimization
+- Marketing optimization
 
-The complete workflow follows:
+ The complete workflow follows:
 
 Python (Cleaning & EDA) → PostgreSQL (SQL Analysis) → Power BI (Visualization)
 
@@ -29,21 +29,21 @@ Python (Cleaning & EDA) → PostgreSQL (SQL Analysis) → Power BI (Visualizatio
 
 Includes:
 
-Customer demographics
+-Customer demographics
 
-Age, Gender, Location, Subscription Status
+-Age, Gender, Location, Subscription Status
 
-Purchase details
+-Purchase details
 
-Item, Category, Amount, Season, Size, Color
+-Item, Category, Amount, Season, Size, Color
 
-Behavior metrics
+-Behavior metrics
 
-Discount usage, Purchase frequency, Review rating, Shipping type
+-Discount usage, Purchase frequency, Review rating, Shipping type
 
-Data issues handled
+-Data issues handled
 
-37 missing values in Review Rating
+-37 missing values in Review Rating
 
 ## Tools & Technologies
 
@@ -89,82 +89,87 @@ Loaded cleaned data using to_sql()
 
 Solved real business questions using:
 
-CTEs
+-CTEs
 
-Window functions
+-Window functions
 
-Aggregations
+-Aggregations
 
 Examples:
 
-Revenue by gender
+-Revenue by gender
 
-High-spending discount users
+-High-spending discount users
 
-Top-rated products
+-Top-rated products
 
-Subscriber vs non-subscriber spend
+-Subscriber vs non-subscriber spend
 
-Discount-dependent products
+-Discount-dependent products
 
-Customer segmentation (New/Returning/Loyal)
+-Customer segmentation (New/Returning/Loyal)
 
-Top 3 products per category
+-Top 3 products per category
 
-Revenue by age group
+-Revenue by age group
 
 6️⃣ Visualization
 
-Built an interactive Power BI dashboard
+-Built an interactive Power BI dashboard
 
-Added KPIs, filters, slicers, and drill-down analysis
+-Added KPIs, filters, slicers, and drill-down analysis
 
 ## Dashboard Features (Power BI)
 
-Revenue trends
+-Revenue trends
 
-Customer segmentation
+-Customer segmentation
 
-Top products
+-Top products
 
-Discount impact analysis
+-Discount impact analysis
 
-Subscription comparison
+-Subscription comparison
 
-Category-wise sales
+-Category-wise sales
 
-Age group contribution
+-Age group contribution
 
-Interactive slicers for dynamic exploration
+-Interactive slicers for dynamic exploration
 
 ## Key Results & Insights
 
 ✅ Loyal customers generate the highest revenue
+
 ✅ Subscribers spend more on average
+
 ✅ Some products heavily depend on discounts
+
 ✅ Higher-rated products correlate with higher sales
+
 ✅ Specific age groups contribute the majority of revenue
+
 
 ## Skills Demonstrated
 
-Data Cleaning & Preprocessing
+-Data Cleaning & Preprocessing
 
-Exploratory Data Analysis (EDA)
+-Exploratory Data Analysis (EDA)
 
-SQL Query Writing (CTEs, Joins, Window Functions)
+-SQL Query Writing (CTEs, Joins, Window Functions)
 
-PostgreSQL Integration
+-PostgreSQL Integration
 
-Feature Engineering
+-Feature Engineering
 
-Dashboard Design (Power BI)
+-Dashboard Design (Power BI)
 
-Business Insight Generation
+-Business Insight Generation
 
-Data Storytelling
+-Data Storytelling
 
 ## Project Structure
-
+```
 customer_behaviour_analysis/
 │
 ├── data/
@@ -173,11 +178,13 @@ customer_behaviour_analysis/
 ├── dashboard/
 ├── screenshots/
 └── README.md
+```
+
 ## How to Run
 1. Clone repository
-git clone <repo-link>
+```git clone <repo-link>```
 2. Install dependencies
-pip install pandas numpy sqlalchemy psycopg2
+```pip install pandas numpy sqlalchemy psycopg2```
 3. Run notebook
 
 Open Jupyter Notebook and execute the analysis.
