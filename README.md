@@ -137,6 +137,8 @@ Examples:
 
 -Interactive slicers for dynamic exploration
 
+![Dashboard Screenshot](dashboard_ss.png)
+
 ## Key Results & Insights
 
 ✅ Loyal customers generate the highest revenue
