@@ -1,165 +1,189 @@
-# customer_behaviour_analysis
-Data analytics project showcasing customer behaviour analysis using python, SQL and power BI
-
+📊 Customer Behaviour Analysis
+Data Analytics Project | Python • SQL • Power BI
 🔹 Overview
 
-This project analyzes customer shopping behavior using transactional retail data to uncover insights about spending patterns, product performance, customer segments, and subscription trends.
+This project analyzes retail customer transaction data to uncover insights into shopping behavior, spending patterns, product performance, and customer segments.
 
-The objective is to help businesses make data-driven decisions related to:
+The goal is to help businesses make data-driven decisions that improve:
 
--Customer retention
+Customer retention
 
--Discount strategy
+Discount strategies
 
--Product positioning
+Product positioning
 
--Revenue growth
+Revenue growth
 
--Marketing optimization
+Marketing optimization
 
-The complete workflow includes Python (EDA & cleaning) → PostgreSQL (SQL analysis) → Power BI (dashboard visualization).
+The complete workflow follows:
+
+Python (Cleaning & EDA) → PostgreSQL (SQL Analysis) → Power BI (Visualization)
 
 🔹 Dataset
 
-Rows: 3,900 transactions
+📌 Rows: 3,900 transactions
 
-Columns: 18 features
+📌 Columns: 18 features
 
 Includes:
 
--Customer demographics (Age, Gender, Location, Subscription Status)
+Customer demographics
 
--Purchase details (Item, Category, Amount, Season, Size, Color)
+Age, Gender, Location, Subscription Status
 
--Behavior data (Discount, Frequency, Review Rating, Shipping Type)
+Purchase details
 
--Missing values: 37 in Review Rating column 
+Item, Category, Amount, Season, Size, Color
 
--Customer Shopping Behavior Anal…
+Behavior metrics
+
+Discount usage, Purchase frequency, Review rating, Shipping type
+
+Data issues handled
+
+37 missing values in Review Rating
 
 🔹 Tools & Technologies
+Tool	Purpose
+Python (Pandas, NumPy)	Data cleaning & EDA
+PostgreSQL	SQL analysis
+SQLAlchemy	Python–Database connection
+Power BI	Dashboard & visualization
+Jupyter Notebook	Development
+🔹 Project Workflow
+1️⃣ Data Loading
 
--Python (Pandas, NumPy):	Data cleaning & EDA
--PostgreSQL:	SQL analysis
--SQLAlchemy:	Python–DB connection
--Power BI:	Dashboard & visualization
--Jupyter Notebook:	Development
+Imported dataset using Pandas
 
-🔹 Project Workflow / Steps
-1️⃣ Data Loading (Python)
-
--Imported dataset using Pandas
-
--Checked structure using .info() and .describe()
+Inspected structure using .info() and .describe()
 
 2️⃣ Data Cleaning
 
--Handled missing values (median imputation by category)
+Handled missing values using median imputation by category
 
--Renamed columns to snake_case
+Renamed columns to snake_case
 
--Removed redundant fields (promo_code_used)
+Removed redundant fields (promo_code_used)
 
 3️⃣ Feature Engineering
 
 Created:
 
--age_group (customer segmentation)
+age_group → customer segmentation
 
--purchase_frequency_days
+purchase_frequency_days
 
--Standardized categorical values
+Standardized categorical values
 
 4️⃣ Database Integration
 
--Connected Python to PostgreSQL using SQLAlchemy
+Connected Python to PostgreSQL using SQLAlchemy
 
--Loaded cleaned DataFrame using to_sql()
+Loaded cleaned data using to_sql()
 
 5️⃣ SQL Analysis
 
--Solved real business questions using SQL:
+Solved real business questions using:
 
--Revenue by gender
+CTEs
 
--High-spending discount users
+Window functions
 
--Top rated products
+Aggregations
 
--Shipping comparison
+Examples:
 
--Subscriber vs non-subscriber spend
+Revenue by gender
 
--Discount dependent products
+High-spending discount users
 
--Customer segmentation (New/Returning/Loyal)
+Top-rated products
 
--Top 3 products per category
+Subscriber vs non-subscriber spend
 
--Repeat buyers vs subscriptions
+Discount-dependent products
 
--Revenue by age group
+Customer segmentation (New/Returning/Loyal)
+
+Top 3 products per category
+
+Revenue by age group
 
 6️⃣ Visualization
 
--Built interactive Power BI dashboard
+Built an interactive Power BI dashboard
 
--Added KPIs, filters, and category drill-downs
+Added KPIs, filters, slicers, and drill-down analysis
 
 🔹 Dashboard Features (Power BI)
 
--Revenue trends
+Revenue trends
 
--Customer segments
+Customer segmentation
 
--Top products
+Top products
 
--Discount impact analysis
+Discount impact analysis
 
--Subscription comparison
+Subscription comparison
 
--Category-wise sales
+Category-wise sales
 
--Age group contribution
+Age group contribution
 
--Interactive slicers allow dynamic business exploration.
-
-![Dashboard Screenshot]([dashboard_ss.png])
+Interactive slicers for dynamic exploration
 
 🔹 Key Results & Insights
 
-✅ Loyal customers generate highest revenue
-
-✅ Some products depend heavily on discounts
-
+✅ Loyal customers generate the highest revenue
 ✅ Subscribers spend more on average
+✅ Some products heavily depend on discounts
+✅ Higher-rated products correlate with higher sales
+✅ Specific age groups contribute the majority of revenue
 
-✅ Top-rated products align with higher sales
+🔹 Skills Demonstrated
 
-✅ Specific age groups contribute majority revenue
+Data Cleaning & Preprocessing
 
-  🔹 Skills Demonstrated
+Exploratory Data Analysis (EDA)
 
--Data Cleaning
+SQL Query Writing (CTEs, Joins, Window Functions)
 
--Exploratory Data Analysis
+PostgreSQL Integration
 
--SQL Query Writing
+Feature Engineering
 
--PostgreSQL Integration
+Dashboard Design (Power BI)
 
--Feature Engineering
+Business Insight Generation
 
--Business Insight Generation
+Data Storytelling
 
--Dashboard Design
+🔹 Project Structure
+customer_behaviour_analysis/
+│
+├── data/
+├── notebooks/
+├── sql_queries/
+├── dashboard/
+├── screenshots/
+└── README.md
+🔹 How to Run
+1. Clone repository
+git clone <repo-link>
+2. Install dependencies
+pip install pandas numpy sqlalchemy psycopg2
+3. Run notebook
 
--Data Storytelling
+Open Jupyter Notebook and execute the analysis.
+
+4. Open Power BI
+
+Load the .pbix file to view the dashboard.
 
 🔹 Author
 
 Gunjan Saini
-
-Aspiring Data Analyst | SQL • Python • Power BI
-
-
+Aspiring Data Analyst
+SQL • Python • Power BI
